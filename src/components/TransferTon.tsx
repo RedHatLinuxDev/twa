@@ -30,7 +30,7 @@ export function TransferTon() {
           <label>Comment </label>
           <Input
             style={{ marginRight: 8 }}
-            type="number"
+            type="text"
             value={text}
             onChange={(e) => setText(e.target.value)}
           ></Input>
